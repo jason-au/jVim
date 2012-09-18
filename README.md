@@ -18,6 +18,10 @@ On Windows? Follow these [steps](https://github.com/gmarik/vundle/wiki/Vundle-fo
 
 $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
+Install custom .vimrc
+---------------------
+Make a copy of the custom .vimrc to your home directory
+
 Install Bundles defined in .vimrc
 ---------------------------------
 Launch vim and run :BundleInstall

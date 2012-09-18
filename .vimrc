@@ -40,6 +40,8 @@ Bundle 'taxilian/vim-web-indent'
 "HTML
 Bundle 'amirh/HTML-AutoCloseTag'
 Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+"misc
+Bundle 'tpope/vim-markdown'
 
 "General
 filetype plugin indent on
@@ -62,9 +64,9 @@ set hidden
 set background=dark
 
 "Set up directories
-set backup
+"set backup
 if has('persistent_undo')
-    set undofile
+"    set undofile
     set undolevels=1000
     set undoreload=10000
 endif
