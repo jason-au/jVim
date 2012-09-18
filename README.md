@@ -25,3 +25,7 @@ Make a copy of the custom .vimrc to your home directory
 Install Bundles defined in .vimrc
 ---------------------------------
 Launch vim and run :BundleInstall
+
+Install custom fonts
+--------------------
+[proggy_fonts](http://www.proggyfonts.com/index.php?menu=download)
