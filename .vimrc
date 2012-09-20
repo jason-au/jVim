@@ -35,12 +35,11 @@ Bundle 'python_match.vim'
 Bundle 'pythoncomplete'
 "Javascript
 Bundle 'leshill/vim-json'
-"CSS
 Bundle 'groenewege/vim-less'
-Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+Bundle 'taxilian/vim-web-indent'
 "HTML
 Bundle 'amirh/HTML-AutoCloseTag'
-Bundle 'taxilian/vim-web-indent'
+Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
 "misc
 Bundle 'tpope/vim-markdown'
 
@@ -223,6 +222,9 @@ map <leader>ew :e %%
 map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
+
+" Allows for deletion of character after cursor in insert mode
+imap <C-d> <C-[>xi
 
 " Adjust viewports to the same size
 map <Leader>= <C-w>=
