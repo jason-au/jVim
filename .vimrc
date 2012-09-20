@@ -35,11 +35,12 @@ Bundle 'python_match.vim'
 Bundle 'pythoncomplete'
 "Javascript
 Bundle 'leshill/vim-json'
+"CSS
 Bundle 'groenewege/vim-less'
-Bundle 'taxilian/vim-web-indent'
+Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
 "HTML
 Bundle 'amirh/HTML-AutoCloseTag'
-Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+Bundle 'taxilian/vim-web-indent'
 "misc
 Bundle 'tpope/vim-markdown'
 
