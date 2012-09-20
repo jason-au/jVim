@@ -1,16 +1,12 @@
-jVim
-====
-
+# jVim #
 My custom Vim setup
 
-Install vim
------------
+## Install vim ##
 [Mac](http://code.google.com/p/macvim/)
 
 [Windows](http://cream.sourceforge.net/download.html)
 
-Install Vundle
---------------
+## Install Vundle ##
 From [github](https://github.com/gmarik/vundle)
 
 **Make sure git is installed!**
@@ -18,16 +14,13 @@ On Windows? Follow these [steps](https://github.com/gmarik/vundle/wiki/Vundle-fo
 
 $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-Install custom .vimrc
----------------------
+## Install custom .vimrc ##
 Make a copy of the custom .vimrc to your home directory
 
-Install Bundles defined in .vimrc
----------------------------------
+## Install Bundles defined in .vimrc ##
 Launch vim and run :BundleInstall
 
-Included Bundles
-----------------
+## Included Bundles ##
 ### Dependencies ###
 * [Vundle](https://github.com/gmarik/vundle)
 * [tlib](https://github.com/tomtom/tlib_vim)
@@ -61,6 +54,5 @@ Included Bundles
 ### Misc ###
 * [vim-markdown](https://github.com/tpope/vim-markdown)
 
-Install custom fonts
---------------------
+## Install custom fonts ##
 On Windows I use [proggy_fonts](http://www.proggyfonts.com/index.php?menu=download).
